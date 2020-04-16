@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!--google font-->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC:700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <style>
+    /*reboot*/
+        body{
+          font-family:-apple-system,BlinkMacSystemFont,"Microsoft JhengHei","Segoe UI","Roboto","Helvetica Neue", Arial, sans-serif,"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+        /*a{
+          color: black;
+        }*/
+        a, a:hover, a:focus {
+          display: block;
+          text-decoration: none;
+        }
+  </style>
+  <title>中山大報社 Echo Bomber</title>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="./content/viewpoint/page/viewpoint_page1.html">異言堂</a>
+    <a href="./content/news/page/news_page1.html">輕鬆閱讀</a>
+    <a href="./content/aboutUs/aboutUs.html">關於我們</a>
+  </div>
+  <div id="main">
+    <div class="sticky-top top-nav py-2">
+     <nav class="container">
+       <div class="row justify-content-between">
+         <div class="d-flex">
+           <a href="#" class="nav-logo">中山大報社</a>
+           <ul class="clearfix">
+             <li><a href="./content/viewpoint/page/viewpoint_page1.html">異言堂</a></li>
+             <li><a href="./content/news/page/news_page1.html">輕鬆閱讀</a></li>
+             <li><a href="./content/aboutUs/aboutUs.html">關於我們</a></li>
+           </ul>
+         </div>
+         <a href="javascript:void(0)" class="clickOpenSideNav" onclick="openNav()">&#9776</a>
+       </div>
+     </nav>
+    </div>
+    <header>
+      <!--carousel-->
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="4500">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-pics" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url('./img/child-vaccine.jpg')">
+              <div class="container">
+                <div class="row carousel-text">
+                  <div>
+                    <h3 class="mb-3 ml-2"><span class="badge badge-info">四月刊</span></h3>
+                    <a href="./content/viewpoint/article/april/viewpoint_vaccine.html" class="mb-4">
+                      <div class="carousel-link">
+                        <h2>反疫苗有理? 關於反疫苗這檔事</h2>
+                        <p class="JQellipsis-header">你有聽過什麼是疫苗猶豫嗎? 你知道政府推廣的群體免疫力是什麼概念嗎? 也許你跟我一樣是個梗圖愛好者，那你可能恰好也知道反疫苗這個議題在前一陣子一直是網路梗圖的熱門素材</p>
+                      </div>
+                      <p class="text-white">圖片來源 / Pixabay</p>
+                      <button type="button" class="btn btn-outline-light">Read more</button>
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-pics" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url('https://i.imgur.com/kqJddf6.jpg');">
+              <div class="container">
+                <div class="row carousel-text">
+                  <div>
+                    <h3 class="mb-3 ml-2"><span class="badge badge-info">四月刊</span></h3>
+                    <a href="./content/viewpoint/article/april/viewpoint_sexdate.html" class="mb-4">
+                      <div class="carousel-link">
+                        <h2>約炮，錯了嗎？</h2>
+                        <p class="JQellipsis-header">新世代自主意識抬頭，透過多方想法帶來的衝擊，挑戰傳統對性事的觀念。有人可以把性愛分離，有人則認為密不可分，至於你的性與愛可以劃分清楚嗎？
+                        </p>
+                      </div>
+                      <p class="text-white">圖片來源 / freepik</p>
+                      <button type="button" class="btn btn-outline-light">Read more</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-pics" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url('./img/Nroom.jpg');">
+              <div class="container">
+                <div class="row carousel-text">
+                  <div>
+                    <h3 class="mb-3 ml-2"><span class="badge badge-info">四月刊</span></h3>
+                    <a href="./content/news/article/april/news_article_Nroom.html" class="mb-4">
+                      <div class="carousel-link">
+                        <h2>N號房事件，然後呢？</h2>
+                        <p class="JQellipsis-header">由於社會輿論和風向都傾向要將群組成員公諸於世，在03/28竟有名付費會員跳漢江自殺，並在遺書寫道「我把錢匯進了博士房，沒想到事情會鬧那麼大，對不起受害者、家人和親友」。此舉讓許多民眾預測韓國將會有一波男性自殺潮，不想承擔曾為n號房成員的社會壓力，只好採取極端的逃避手法—輕生。</p>
+                      </div>
+                      <p class="text-white">圖片來源 / Pixabay</p>
+                      <button type="button" class="btn btn-outline-light">Read more</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <!--最新文章-->
+    <div class="container pt-5 pb-2">
+      <div class="row seriftc subtitle"><h5 class="h4">最新文章</h5></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <a href="content/viewpoint/article/april/viewpoint_vaccine.html" class="news h-450" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url('http://i.imgur.com/cRfNo7t.png');">
+          <div class="news-text">
+            <div class="news-link">
+              <h3 class="seriftc mb-4">反疫苗有理? 關於反疫苗這檔事</h3>
+              <p class="JQellipsis">你有聽過什麼是疫苗猶豫嗎? 你知道政府推廣的群體免疫力是什麼概念嗎? 也許你跟我一樣是個梗圖愛好者，那你可能恰好也知道反疫苗這個議題在前一陣子一直是網路梗圖的熱門素材......</p>
+            </div>
+            <button type="button" class="btn btn-outline-light">Read more</button>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-md-7 pt-3 px-0 pr-md-3">
+          <a href="content/viewpoint/article/april/viewpoint_sexdate.html" class="news  h-350" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url('https://i.imgur.com/kqJddf6.jpg');">
+            <div class="news-text">
+              <div class="news-link">
+                <h3 class="seriftc mb-4" style="font-size: 25px;">約砲，錯了嗎?</h3>
+                <p class="JQellipsis">有人可以把性愛分離，有人則認為密不可分，至於你的性與愛可以劃分清楚嗎？</p>
+              </div>
+              <button type="button" class="btn btn-outline-light">Read more</button>
+            </div>            
+          </a>
+        </div>
+        <div class="col-md-5 pt-3 px-0">
+          <a href="content/news/article/april/news_article_Nroom.html" class="news h-350" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url('https://i.imgur.com/UbJIdgl.jpg');">
+            <div class="news-text">
+              <div class="news-link">
+                <h3 class="seriftc mb-4" style="font-size: 25px;">N號房事件，然後呢？</h3>
+                <p class="JQellipsis">由於社會輿論和風向都傾向要將群組成員公諸於世，在03/28竟有名付費會員跳漢江自殺，並在遺書寫道「我把錢匯進了博士房，沒想到事情會鬧那麼大......</p>
+              </div>
+              <button type="button" class="btn btn-outline-light">Read more</button>
+            </div>           
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--粉專-->
+    <div class="container px-0 py-5">
+      <div class="row justify-content-center align-items-center fb-link">
+       <div>
+        <a href="#" class="icon"></a>
+        <p>喜歡我們的文章嗎? 去粉專逛逛</p>
+        <button type="button" class="btn btn-outline-light"><a href="https://reurl.cc/9ErYWX" target="_blank">前往粉專頁面</a></button>
+       </div>
+      </div>
+    </div>
+    <!--國際新聞-->
+    <div class="container pb-2">
+      <div class="row seriftc subtitle"><h5 class="h4">新聞專欄</h5></div>
+    </div>
+    <div class="container mb-5">
+      <!-- <div class="row">
+        <div class="col-md-7 px-0"><a href="./content/news/article/april/news_article_olympics.html" class="article article-1 h-350"></a></div>
+        <div class="col-md-5 w-70 px-0 pl-md-4">
+          <div class="article-text">
+            <a href="./content/news/article/april/news_article_olympics.html">
+              <div>
+                <h3 class="seriftc">從聖火談東奧延期</h3>
+                <p class="h5">雖然延期確實是歷史首遭，但我們可能很難單從數據看出延期對整個活動的影響。因此本文將從傳聖火這項環節帶入，由一個小環節事前事後規劃變更，引領讀者思考日本對於延期所產生的焦慮與不安。</p>
+              </div>
+              <div class="writer clearfix">
+                <img src="img/band.jpg" alt="">
+                <div class="writer-intro">
+                  <p>李尚衡</p>
+                  <p>Feb2 2 min read</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col-md-6 col-lg-4 px-0 pr-md-4">
+          <a href="./content/news/article/april/news_article_washHand.html" class="card-wrap">
+            <div class="article-pics h-200 mb-1" style="background-image: url('https://i.imgur.com/6pdv90i.jpg');"></div>
+            <div class="p-3 p-md-4">
+              <div class="text-dark article-link">
+                <h5 class="seriftc mb-3">你知道嗎？19世紀時有醫生因為推廣洗手而被逐出醫學界喔</h5>
+                <p class="JQellipsis-article">在新冠肺炎肆虐的今日， 勤加洗手可以說是近期最常聽到的口號了，而這也是預防疾病的最好方式之一。不過在細菌還未被發現的19世紀，消毒殺菌的這個概念根本不存在</p>
+              </div>
+              <div class="writer clearfix text-dark">
+                <img src="https://i.imgur.com/HxwpvOx.png" alt="">
+                <div class="writer-intro">
+                  <p>程至榮</p>
+                  <p>5 min read</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 px-0 pr-md-4">
+          <a href="./content/news/article/april/news_article_womenPower.html" class="card-wrap">
+            <div class="article-pics h-200 mb-1" style="background-image: url('https://i.imgur.com/VI5XpJt.jpg');"></div>
+            <div class="p-3 p-md-4">
+              <div class="text-dark article-link">
+                <h5 class="seriftc mb-3">韓國變質的女性主義</h5>
+                <p class="JQellipsis-article"> 如今，「仇女」已成許多人對韓國的既定印象，但仇女文化的形成不僅是因為父權主義和新興女權主義的立場對立，也因為仇男仇女的網站而造成現今狀況。相較於仇女議題，仇男事件幾乎沒有被台灣媒體深入討論，就算在Google搜尋「韓國仇男」</p>
+              </div>
+              <div class="writer clearfix text-dark">
+                <img src="https://i.imgur.com/brKQ8qo.png" alt="">
+                <div class="writer-intro">
+                  <p>林芸秀</p>
+                  <p>5 min read</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4 px-0">
+          <a href="./content/news/article/april/news_article_olympics.html" class="card-wrap">
+            <div class="article-pics h-200 mb-1" style="background-image: url('https://i.imgur.com/tX6mMMN.png');"></div>
+            <div class="p-3 p-md-4">
+              <div class="text-dark article-link">
+                <h5 class="seriftc mb-3">從聖火談東奧延期</h5>
+                <p class="JQellipsis-article">新冠肺炎目前影響到最大的事件，就是原訂2020年的東京奧運了。雖然延期確實是歷史首遭，但我們可能很難單從數據看出延期對整個活動的影響。因此本文將從傳聖火這項環節帶入，由一個小環節事前事後規劃變更，引領讀者思考日本對於延期所產生的焦慮與不安。</p>
+              </div>
+              <div class="writer clearfix text-dark">
+                <img src="https://i.imgur.com/gJAjhP4.png" alt="">
+                <div class="writer-intro">
+                  <p>李尚衡</p>
+                  <p>5 min read</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!---->
+   <!--  <div class="container pb-2">
+      <div class="row seriftc subtitle"><h5 class="h4">編輯推薦</h5></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 px-0 pr-md-4 pt-3">
+          <a href="#" class="article article-1 h-300 border border-default"></a>
+          <a href="#">
+            <div class="p-2 text-dark">
+              <h3 class="seriftc">轉職的季節，來聊聊產品設計師面試之道吧！</h3>
+              <p>理想候選人該具備的6個要點</p>
+              <div class="writer clearfix">
+                <img src="img/band.jpg" alt="">
+                <div class="writer-intro">
+                  <p>jordan Chung</p>
+                  <p>Feb2 2 min read</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 px-0 pt-3">
+          <a href="#" class="article article-1 h-300 border border-default"></a>
+          <a href="#">
+            <div class="p-2 text-dark">
+              <h3 class="seriftc">轉職的季節，來聊聊產品設計師面試之道吧！</h3>
+              <p>理想候選人該具備的6個要點</p>
+              <div class="writer clearfix">
+                <img src="img/band.jpg" alt="">
+                <div class="writer-intro">
+                  <p>jordan Chung</p>
+                  <p>Feb2 2 min read</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <!--footer-->
+    <div class="container-fluid p-3 clearfix" style="background-color: black;">
+      <div class="container">
+        <p class="float-right text-white mb-0">中山大報社 all right deserve</p>
+      </div>
+    </div>
+  </div>
+  <button onclick="topFunction()" id="scrollTopBtn" title="Go to top">Top</button>
+  
+ 
+ 
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="js/all.js"></script>
+</body>
+</html>
