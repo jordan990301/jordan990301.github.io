@@ -281,7 +281,7 @@ header .carousel-text .carousel-link:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s; }

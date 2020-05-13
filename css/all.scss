@@ -326,7 +326,7 @@ header{
 	display: block;
 	width: 100%;
 	@include bg-cover();
-	border-radius: 5px;
+	border-radius: 5px 5px 0 0;
 	transition: all 0.2s;
 }
 .article-link{
